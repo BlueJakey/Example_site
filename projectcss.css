@@ -5,11 +5,11 @@
   margin:0;
 }
 .header{
-  background-color:green;
+  background-color:#444444;
   border-bottom: 5px solid black;
 }
 ul{
-
+margin-left:10px;
 }
 li{
   display: inline;
@@ -20,10 +20,16 @@ a{
   text-decoration: none;
   padding:20px;
   font-size: 45px;
-  color:black;
+  color:#fff;
 }
 a:hover{
   color:white;
   background: black;
   transition: 0.5s;
+  text-decoration: underline;
+}
+form{
+  display: inline;
+  padding:10px;
+  margin:10px;
 }
